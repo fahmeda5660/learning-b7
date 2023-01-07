@@ -1,3 +1,8 @@
-h1{
-    color: blueviolet;
+/* CTRL + /  for comment*/
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+nav ul li{
+    display: inline-block;
 }

@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+nav ul li{
+    display: inline-block;
+}
+div{
+    margin-top: 50px;
+}
+/* HOVER */
+.hover-class:hover{
+    color: rgb(3, 215, 230);
+    background: rgb(244, 4, 132);
+}
+/* input focus */
+.input-focus .focus-text:focus{
+    color: blueviolet;
+    font-weight: 700;
+}
+/* visited pseudo */
+.visited-pseudo a:visited{
+    color:rgb(7, 146, 7)
+}
+/* child, nth clild */
+.child-pseudo ul li:first-child{
+    color: rgb(248, 16, 16);
+}
+.child-pseudo ul li:last-child{
+    color: rgb(42, 48, 165);
+}
+/* 2n mean 2 and 4 no element */
+.child-pseudo ul li:nth-child(2n){
+    color: rgb(65, 165, 42);
+}
+.child-pseudo-1 ul li:nth-child(2n+1){
+    color: rgb(218, 14, 31);
+}
+/* pseudo element */
+.pseudo-element h3::before{
+    content: 'Hello ';
+}
+.pseudo-element h3::after{
+    content: 'Bye ';
+    font-size: 18px;
+    color: blueviolet;
+}
+/* position styles */
+.swimming{
+    position: relative;
+}
+.swimming div{
+    border: 1px dashed red;
+    width: 200px;
+}
+.swimming div#ringId{
+    position: absolute;
+    left: 30px;
+    top: -10px;
+}
+.dummy{
+    height: 150px;
+    width: 250px;
+    background: rgb(234, 7, 7);
+}
+.water{
+ position: sticky;
+ left: 50%;
+ top: 0;
+}
+.boy{
+    position: fixed;
+    left: 50%;
+    top: 0;
+}
+.boy-index{
+
+}
+.water-index{
+    position: relative;
+
+
+}
+.ring-index{
+    position: relative;
+    bottom: -140px;
+    z-index: 1;
+}
